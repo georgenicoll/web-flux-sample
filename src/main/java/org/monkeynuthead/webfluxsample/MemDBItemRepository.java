@@ -8,7 +8,7 @@ import reactor.core.publisher.Flux;
 import rx.Observable;
 import rx.RxReactiveStreams;
 
-class MemDBItemRepository extends Jooby implements ItemRepository {
+class MemDBItemRepository implements ItemRepository {
 
     private static final Logger log = LoggerFactory.getLogger(MemDBItemRepository.class);
 
